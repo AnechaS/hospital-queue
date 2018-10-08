@@ -1,0 +1,337 @@
+body {
+    background-color: #ecf0f1;
+}
+
+#content {
+    margin-top: 65px
+}
+
+.navbar-brand {
+    font-family: 'Barrio' !important;
+}
+
+.navbar,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar .nav>li.dropdown.active.open>a,
+.navbar .nav>li.dropdown.open>a {
+    background-color: #34495e;
+    color: #ffffff !important;
+}
+
+.navbar .nav > li > a,
+.navbar .dropdown-toggle,
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: #ffffff !important;
+    /* font-family: 'Bangers'; */
+}
+
+.card-department {
+    margin-bottom: 12px;
+    border-radius: 0px;
+    border-left: 6px solid #34495e;
+    text-transform: uppercase;
+
+    /* clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%); */
+}
+
+.card-department .panel-body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-department .panel-body .text-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-department .panel-body span {
+    font-size: 1em;
+    opacity: 0.2;
+}
+
+.card-department .list-group .list-group-item {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-department .list-group {
+    display: none;
+}
+
+
+/*
+=======================================================================
+>>> queue page
+=======================================================================
+*/
+@media (min-width: 768px) {
+    .circle-tile {
+        margin-bottom: 30px;
+    }
+}
+
+.circle-tile {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.circle-tile-heading {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto -40px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+.dark-blue {
+    background-color: #34495e;
+}
+
+.green {
+    background-color: #16a085;
+}
+
+.blue {
+    background-color: #2980b9;
+}
+
+.orange {
+    background-color: #f39c12;
+}
+
+.red {
+    background-color: #e74c3c;
+}
+
+.purple {
+    background-color: #8e44ad;
+}
+
+.dark-gray {
+    background-color: #7f8c8d;
+}
+
+.gray {
+    background-color: #95a5a6;
+}
+
+.light-gray {
+    background-color: #bdc3c7;
+}
+
+.yellow {
+    background-color: #f1c40f;
+}
+
+/* -- Text Color Helper Classes */
+
+.text-dark-blue {
+    color: #34495e;
+}
+
+.text-green {
+    color: #16a085;
+}
+
+.text-blue {
+    color: #2980b9;
+}
+
+.text-orange {
+    color: #f39c12;
+}
+
+.text-red {
+    color: #e74c3c;
+}
+
+.text-purple {
+    color: #8e44ad;
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.circle-tile-heading .fa {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    line-height: 80px;
+    font-family: 'Bangers';
+}
+
+.circle-tile-content {
+    padding-top: 50px;
+}
+
+.circle-tile-description {
+    text-transform: uppercase;
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.circle-tile-number {
+    padding: 5px 0 15px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.circle-tile-footer {
+    display: block;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out .3s;
+}
+
+.circle-tile-footer:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card-queue, .card-station {
+    border-color: #ddd;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.card-queue .body, .card-station .body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 15px;
+}
+
+.card-queue .body .left , .card-station .body .left  {
+    line-height: 85px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.card-station .body .right span  {
+    /* background-color: #34495e; */
+    /* line-height: 100px; */
+    /* line-height: 85px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold; */
+    padding-top: 10px;
+    font-size: 60px;
+    /* color: #5cb85c; */
+}
+
+.card-station.active, .card-queue.active {
+    margin-bottom: 12px;
+    border-radius: 0px;
+    border-left: 6px solid #34495e;
+}
+/*
+=======================================================================
+>>> user item
+=======================================================================
+*/
+
+.btn-tab-managt-queue {
+    margin-bottom: 10px;
+}
+
+.btn-tab-managt-queue .btn {
+    border-radius: 0px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-tab-managt-queue .active, .btn-tab-managt-queue .btn:focus {
+    background-color: #34495e;
+    color: #fff;
+}
+
+.card-content-managt-queue, .card-x {
+    /* height: 300px; */
+    border-color: #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.card-content-managt-queue .body, .card-x .body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 15px;
+}
+
+.content-managt-queue {
+    margin-top: 10px;
+}
+
+.content-managt-queue .form-control , .content-managt-queue .btn {
+    border-radius: 0px;
+    border-color: #ddd !important;
+}
+
+.avatar img {
+    width: 150px;
+}
+
+.queue-input-group {
+    margin-bottom: 10px;
+}
+
+.queue-input-group input {
+    border-color: #ffffff;
+    border-bottom: 2px solid #34495e;
+    border-left: 6px solid #34495e;
+}
+
+.queue-input-group input#date{
+    border-right: 2px solid #34495e;
+}
+
+.queue-input-group .input-group-addon {
+    border-radius: 0px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.queue-input-group .boder-partition {
+    border-left: 2px solid #34495e;
+}
+
+.pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,139 @@
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: #34495e;
+}
+.partnerlogo {
+	width: 392px;
+	height: 137px;
+	margin-bottom: 30px;
+}
+.partnerlogo .left{
+	float: left;
+	width: 170px;
+	height: 137px;
+	padding-right: 25px;
+}
+.partnerlogo .right{
+	border-left: 2px solid rgba(255,255,255,0.2);
+	padding-left: 25px;
+	float: left;
+	width: 170px;
+	height: 137px;
+	overflow: hidden;
+}
+.plogobox {
+	overflow: hidden;
+	width: 170px;
+	height: 137px;
+}
+.plogobox img{
+	height: 137px;
+}
+.logobox{
+    margin-top: 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Barrio';
+    text-align: center;
+	margin-bottom: 20px;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+}
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  border: none;
+  width: 90%;
+  border: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.form-username {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin-bottom: 1px;
+}
+.form-password {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  border: none;
+  width: 90%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: rgba(0,0,0,0.4);
+  width: 90%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+	font-weight: bold;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+	border-radius: 10px;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: rgba(0,0,0,0.6);
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+.form .message a {
+  color: rgba(0,0,0,0.6);
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
